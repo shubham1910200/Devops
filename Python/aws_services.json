@@ -1,0 +1,7 @@
+{
+    "ec2": "server",
+    "s3": "storage",
+    "lambda": "serverless",
+    "iam": " Restricted the perimission",
+    "vpc": "virtual private cloud"
+}
