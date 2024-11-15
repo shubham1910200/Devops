@@ -14,7 +14,7 @@ pipeline{
 
             steps{
                 script {
-                    sh 'docker run -rm hello-world'
+                    sh 'docker run -rm -p 8000:8000 hello-world'
             }
         }
     }
