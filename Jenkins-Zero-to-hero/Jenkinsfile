@@ -1,0 +1,22 @@
+pipeline{
+    agent any{
+
+        stages('Building')
+        {
+            steps{
+                script {
+                    sh 'docker build -t hello-world .'
+                }
+            }
+
+        }
+        stage('Run'){
+
+            steps{
+                script {
+                    sh 'docker run -rm hello-world'
+            }
+        }
+    }
+}
+}
