@@ -1,7 +1,7 @@
 # Python
 Python is an open-source, high-level programming language that’s renowned for its simplicity and readability. Created by Guido van Rossum, Python has grown into a major player in the programming world.
 
-## Task 1: Getting Started
+## Task 1: Getting started
 Here's what we're going to do get started with Python:
 1. Verify the installation
 ``` bash
